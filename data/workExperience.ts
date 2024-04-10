@@ -7,7 +7,7 @@ export const workExperienceData = [
                 employer: "Cape Breton University",
                 location: "Sydney, Nova Scotia, Canada",
                 date: "September 2023 - April 2024",
-                description: "",
+                description: "Taught post-baccalaureate level business statistics (MGSC-5108) and operations management (MGSC-5128) courses",
             },
         ],
     }
