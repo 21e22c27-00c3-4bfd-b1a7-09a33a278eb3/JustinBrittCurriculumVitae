@@ -17,6 +17,13 @@ export const educationData = [
                 description: "",
             },
             {
+                title: "Bachelor of Science in Industrial Engineering",
+                subTitle: "Louisiana Tech University",
+                location: "Ruston, Louisiana, United States of America",
+                date: "May 2014",
+                description: "",
+            },
+            {
                 title: "Bachelor of Science in Physics",
                 subTitle: "The University of Winnipeg",
                 location: "Winnipeg, Manitoba, Canada",
