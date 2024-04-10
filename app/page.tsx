@@ -24,15 +24,10 @@ const EducationContent: React.FC<EducationContentProps> = ({ title, items }) => 
                                 {item.date}
                             </div>
                             <div className="flex flex-col flex-1">
-                                <h4>{item.title}</h4>
+                                <h4>{item.degree}</h4>
                                 <p className="text-slate-600 dark:text-gray-400">
-                                    {item.subTitle}, {item.location}
+                                    {item.university}, {item.location}
                                 </p>
-                                {item.description ? (
-                                    <p className="text-slate-600 dark:text-gray-400 mt-2">
-                                        {item.description}
-                                    </p>
-                                ) : null}
                             </div>
                         </div>
                     );

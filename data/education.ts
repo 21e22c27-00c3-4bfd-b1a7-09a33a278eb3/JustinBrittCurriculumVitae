@@ -3,32 +3,28 @@ export const educationData = [
         title: "Education",
         items: [
             {
-                title: "Doctor of Philosophy in Industrial and Manufacturing Systems Engineering",
-                subTitle: "University of Windsor",
+                degree: "Doctor of Philosophy in Industrial and Manufacturing Systems Engineering",
+                university: "University of Windsor",
                 location: "Windsor, Ontario, Canada",
-                date: "October 2023",
-                description: "",
+                date: "October 2023"
             },
             {
-                title: "Master of Applied Science in Industrial Engineering",
-                subTitle: "University of Windsor",
+                degree: "Master of Applied Science in Industrial Engineering",
+                university: "University of Windsor",
                 location: "Windsor, Ontario, Canada",
-                date: "June 2016",
-                description: "",
+                date: "June 2016"
             },
             {
-                title: "Bachelor of Science in Industrial Engineering",
-                subTitle: "Louisiana Tech University",
+                degree: "Bachelor of Science in Industrial Engineering",
+                university: "Louisiana Tech University",
                 location: "Ruston, Louisiana, United States of America",
-                date: "May 2014",
-                description: "",
+                date: "May 2014"
             },
             {
-                title: "Bachelor of Science in Physics",
-                subTitle: "The University of Winnipeg",
+                degree: "Bachelor of Science in Physics",
+                university: "The University of Winnipeg",
                 location: "Winnipeg, Manitoba, Canada",
-                date: "June 2010",
-                description: "",
+                date: "June 2010"
             },
         ],
     }
@@ -37,11 +33,10 @@ export const educationData = [
 export type EducationContent = {
     title: string;
     items: {
-        title: string;
-        subTitle: string;
+        degree: string;
+        university: string;
         location: string;
         date: string;
-        description: string;
     }[];
 };
 
