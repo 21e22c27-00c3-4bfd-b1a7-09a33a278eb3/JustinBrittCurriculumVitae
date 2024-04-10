@@ -51,7 +51,7 @@ const WorkExperienceContent: React.FC<WorkExperienceContentProps> = ({ title, it
                             <div className="flex flex-col flex-1">
                                 <h4>{item.title}</h4>
                                 <p className="text-slate-600 dark:text-gray-400">
-                                    {item.subTitle}
+                                    {item.employer}
                                 </p>
                                 {item.description ? (
                                     <p className="text-slate-600 dark:text-gray-400 mt-2">
