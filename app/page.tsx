@@ -85,9 +85,9 @@ export default function Home() {
           return <Content {...content} key={index} />;
         })}
 
-        {/*{contentData.map((content, index) => {*/}
-        {/*  return <Content {...content} key={index} />;*/}
-        {/*})}*/}
+        {contentData.map((content, index) => {
+          return <Content {...content} key={index} />;
+        })}
         <section className="my-14 text-sm">
           <h3 className="mb-6 text-slate-900">Contact</h3>
           <div className="flex flex-col gap-6">
