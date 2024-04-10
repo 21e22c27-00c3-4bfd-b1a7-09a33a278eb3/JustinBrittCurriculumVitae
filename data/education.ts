@@ -5,18 +5,21 @@ export const educationData = [
             {
                 title: "Doctor of Philosophy in Industrial and Manufacturing Systems Engineering",
                 subTitle: "University of Windsor",
+                location: "Windsor, Ontario, Canada",
                 date: "October 2023",
                 description: "",
             },
             {
                 title: "Master of Applied Science in Industrial Engineering",
                 subTitle: "University of Windsor",
+                location: "Windsor, Ontario, Canada",
                 date: "June 2016",
                 description: "",
             },
             {
                 title: "Bachelor of Science in Physics",
                 subTitle: "The University of Winnipeg",
+                location: "Winnipeg, Manitoba, Canada",
                 date: "June 2010",
                 description: "",
             },
@@ -29,6 +32,7 @@ export type EducationContent = {
     items: {
         title: string;
         subTitle: string;
+        location: string;
         date: string;
         description: string;
     }[];

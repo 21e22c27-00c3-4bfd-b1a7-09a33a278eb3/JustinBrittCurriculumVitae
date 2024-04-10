@@ -7,6 +7,7 @@ import type { Content } from "@/data/content";
 import type { EducationContent } from "@/data/education";
 
 type ContentProps = Content;
+type EducationContentProps = EducationContent;
 
 const Content: React.FC<ContentProps> = ({ title, items }) => {
   return (
@@ -36,6 +37,36 @@ const Content: React.FC<ContentProps> = ({ title, items }) => {
       </div>
     </section>
   );
+};
+
+const EducationContent: React.FC<EducationContentProps> = ({ title, items }) => {
+    return (
+        <section className="my-14 text-sm">
+            <h3 className="mb-6">{title}</h3>
+            <div className="flex flex-col gap-6">
+                {items.map((item, index) => {
+                    return (
+                        <div className="flex" key={index}>
+                            <div className="mr-8 max-w-[100px] w-full text-slate-400 dark:text-slate-400">
+                                {item.date}
+                            </div>
+                            <div className="flex flex-col flex-1">
+                                <h4>{item.title}</h4>
+                                <p className="text-slate-600 dark:text-gray-400">
+                                    {item.subTitle}, {item.location}
+                                </p>
+                                {item.description ? (
+                                    <p className="text-slate-600 dark:text-gray-400 mt-2">
+                                        {item.description}
+                                    </p>
+                                ) : null}
+                            </div>
+                        </div>
+                    );
+                })}
+            </div>
+        </section>
+    );
 };
 
 export default function Home() {
@@ -81,8 +112,8 @@ export default function Home() {
           </div>
         </section>
         ) : null}
-        {educationData.map((content, index) => {
-          return <Content {...content} key={index} />;
+        {educationData.map((educationContent, index) => {
+          return <EducationContent {...educationContent} key={index} />;
         })}
 
         {contentData.map((content, index) => {
