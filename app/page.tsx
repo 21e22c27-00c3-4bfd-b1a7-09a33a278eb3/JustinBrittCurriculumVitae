@@ -20,7 +20,7 @@ const EducationContent: React.FC<EducationContentProps> = ({ title, items }) => 
                 {items.map((item, index) => {
                     return (
                         <div className="flex" key={index}>
-                            <div className="mr-8 max-w-[100px] w-full text-slate-400 dark:text-slate-400">
+                            <div className="mr-8 max-w-[150px] w-full text-slate-400 dark:text-slate-400">
                                 {item.date}
                             </div>
                             <div className="flex flex-col flex-1">
@@ -45,7 +45,7 @@ const WorkExperienceContent: React.FC<WorkExperienceContentProps> = ({ title, it
                 {items.map((item, index) => {
                     return (
                         <div className="flex" key={index}>
-                            <div className="mr-8 max-w-[300px] w-full text-slate-400 dark:text-slate-400">
+                            <div className="mr-8 max-w-[150px] w-full text-slate-400 dark:text-slate-400">
                                 {item.date}
                             </div>
                             <div className="flex flex-col flex-1">
