@@ -5,6 +5,7 @@ export const workExperienceData = [
             {
                 title: "Sessional Instructor",
                 employer: "Cape Breton University",
+                location: "Sydney, Nova Scotia, Canada",
                 date: "September 2023 - April 2024",
                 description: "",
             },
@@ -17,6 +18,7 @@ export type WorkExperienceContent = {
     items: {
         title: string;
         employer: string;
+        location: string;
         date: string;
         description: string;
     }[];

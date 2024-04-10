@@ -53,6 +53,9 @@ const WorkExperienceContent: React.FC<WorkExperienceContentProps> = ({ title, it
                                 <p className="text-slate-600 dark:text-gray-400">
                                     {item.employer}
                                 </p>
+                                <p className="text-slate-600 dark:text-gray-400">
+                                    {item.location}
+                                </p>
                                 {item.description ? (
                                     <p className="text-slate-600 dark:text-gray-400 mt-2">
                                         {item.description}
