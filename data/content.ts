@@ -18,19 +18,25 @@ export const contentData = [
   },
   {
     title: "Education",
-    items: [
-      //{
-      //  title: "Master's Degree in Computer Science",
-      //  subTitle: "University of Paris",
-      //  date: "2015 - 2016",
-      //  description: "Specialized in web development.",
-      //},
-      //{
-      //  title: "Bachelor's Degree in Computer Science",
-      //  subTitle: "University of Paris",
-      //  date: "2012 - 2015",
-      //  description: "Specialized in web development.",
-      //},
+      items: [
+       {
+        title: "Doctor of Philosophy in Industrial and Manufacturing Systems Engineering",
+        subTitle: "University of Windsor",
+        date: "October 2023",
+        description: "",
+      },
+      {
+        title: "Master of Applied Science in Industrial Engineering",
+        subTitle: "University of Windsor",
+        date: "June 2016",
+        description: "",
+      },
+      {
+        title: "Bachelor of Science in Physics",
+        subTitle: "The University of Winnipeg",
+        date: "June 2010",
+        description: "",
+      },
     ],
   },
   //   @NOTE: You can add more sections here
