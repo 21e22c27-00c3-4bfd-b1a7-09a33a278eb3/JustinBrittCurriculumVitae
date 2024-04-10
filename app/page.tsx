@@ -2,7 +2,9 @@ import Image from "next/image";
 import ThemeSwitch from "@/components/theme-switch";
 import { generalData } from "@/data/general";
 import { contentData } from "@/data/content";
+import { educationData } from "@/data/education";
 import type { Content } from "@/data/content";
+import type { EducationContent } from "@/data/education";
 
 type ContentProps = Content;
 
@@ -79,10 +81,13 @@ export default function Home() {
           </div>
         </section>
         ) : null}
-
-        {contentData.map((content, index) => {
+        {educationData.map((content, index) => {
           return <Content {...content} key={index} />;
         })}
+
+        {/*{contentData.map((content, index) => {*/}
+        {/*  return <Content {...content} key={index} />;*/}
+        {/*})}*/}
         <section className="my-14 text-sm">
           <h3 className="mb-6 text-slate-900">Contact</h3>
           <div className="flex flex-col gap-6">
