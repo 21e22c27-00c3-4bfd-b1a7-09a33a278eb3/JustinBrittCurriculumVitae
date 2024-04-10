@@ -1,30 +1,19 @@
 export const generalData = {
-  name: "John Doe",
+  name: "Justin Britt",
   avatar: "https://github.com/ibelick.png",
-  jobTitle: "Senior Front-End Developer",
-  website: "https://www.julienthibeaut.xyz",
-  about:
-    "Hey there! I'm John, a senior front-end developer with 10 years of experience in web development.",
+  jobTitle: "Postdoctorate Fellow",
+  website: "https://www.uwindsor.ca/pomresearchlab/305/justin-britt",
+  about: "",
   contacts: [
     {
       label: "Email",
-      value: "john.doe@gmail.com",
-      href: "mailto:john.doe@gmail.com",
-    },
-    {
-      label: "Twitter",
-      value: "ibelick",
-      href: "https://twitter.com/ibelick",
+      value: "britt@uwindsor.ca",
+          href: "mailto:britt@uwindsor.ca",
     },
     {
       label: "Github",
-      value: "ibelick",
-      href: "https://github.com/ibelick",
-    },
-    {
-      label: "Read.CV",
-      value: "ibelick",
-      href: "https://read.cv/ibelick",
+      value: "JustinBritt",
+      href: "https://github.com/JustinBritt",
     },
   ],
 };
