@@ -1,6 +1,6 @@
 export const generalData = {
   name: "Justin Britt",
-  avatar: "https://github.com/ibelick.png",
+  avatar: "https://github.com/JustinBritt.png",
   jobTitle: "Postdoctorate Fellow",
   website: "https://www.uwindsor.ca/pomresearchlab/305/justin-britt",
   about: "",
