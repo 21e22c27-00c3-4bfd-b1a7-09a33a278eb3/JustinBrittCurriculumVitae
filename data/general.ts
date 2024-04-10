@@ -8,7 +8,7 @@ export const generalData = {
     {
       label: "Email",
       value: "britt@uwindsor.ca",
-          href: "mailto:britt@uwindsor.ca",
+      href: "mailto:britt@uwindsor.ca",
     },
     {
       label: "Github",
