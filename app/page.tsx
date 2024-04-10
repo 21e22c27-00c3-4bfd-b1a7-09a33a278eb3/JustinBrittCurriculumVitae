@@ -71,12 +71,15 @@ export default function Home() {
             ) : null}
           </div>
         </section>
-        <section className="my-9 text-sm">
-          <h3 className="mb-1 text-slate-900 dark:text-slate-100">About</h3>
-          <div className="text-slate-600 dark:text-slate-300">
+        {generalData.about ? (
+            <section className="my-9 text-sm">
+            <h3 className="mb-1 text-slate-900 dark:text-slate-100">About</h3>
+            <div className="text-slate-600 dark:text-slate-300">
             <p>{generalData.about}</p>
           </div>
         </section>
+        ) : null}
+
         {contentData.map((content, index) => {
           return <Content {...content} key={index} />;
         })}
