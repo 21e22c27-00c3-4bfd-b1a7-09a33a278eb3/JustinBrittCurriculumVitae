@@ -7,6 +7,11 @@ export const certificatesData = [
                 issuer: "Women and Gender Equality Canada",
                 date: "September 29, 2022"
             },
+            {
+                certificate: "Tri-Council Policy Statement: Ethical Conduct for Research Involving Humans Course on Research Ethics (TCPS 2: CORE)",
+                issuer: "Panel on Research Ethics",
+                date: "February 29, 2016"
+            },
         ],
     }
 ];
