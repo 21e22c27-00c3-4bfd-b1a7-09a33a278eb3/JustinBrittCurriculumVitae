@@ -16,6 +16,13 @@ export const workExperienceData = [
                 date: "May 2015 - August 2023",
                 description: "Developed mathematical programming models, discrete event simulation models, solution methods (hyperheuristics and metaheuristics), and a decision support system for strategic and tactical operating room planning problems",
             },
+            { 
+                title: "Graduate Assistant",
+                employer: "University of Windsor",
+                location: "Windsor, Ontario, Canada",
+                date: "September 2015 - May 2023",
+                description: "Conducted weekly tutorial sessions, assisted with grading, held weekly office hours, and responded to students' questions",
+            },
         ],
     }
 ];
