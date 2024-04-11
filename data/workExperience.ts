@@ -10,6 +10,13 @@ export const workExperienceData = [
                 description: "Taught post-baccalaureate level business statistics (MGSC-5108) and operations management (MGSC-5128) courses",
             },
             {
+                title: "Postdoctorate Fellow",
+                employer: "Production & Operations Management Research Lab",
+                location: "Windsor, Ontario, Canada",
+                date: "September 2023 - October 2023",
+                description: "",
+            },
+            {
                 title: "Research Assistant",
                 employer: "Production & Operations Management Research Lab",
                 location: "Windsor, Ontario, Canada",
