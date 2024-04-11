@@ -9,6 +9,13 @@ export const workExperienceData = [
                 date: "September 2023 - April 2024",
                 description: "Taught post-baccalaureate level business statistics (MGSC-5108) and operations management (MGSC-5128) courses",
             },
+            {
+                title: "Research Assistant",
+                employer: "Production & Operations Management Research Lab",
+                location: "Windsor, Ontario, Canada",
+                date: "May 2015 - August 2023",
+                description: "",
+            },
         ],
     }
 ];
