@@ -11,7 +11,7 @@ export const generalData = {
       href: "mailto:britt@uwindsor.ca",
     },
     {
-      label: "Github",
+      label: "GitHub",
       value: "JustinBritt",
       href: "https://github.com/JustinBritt",
     },
