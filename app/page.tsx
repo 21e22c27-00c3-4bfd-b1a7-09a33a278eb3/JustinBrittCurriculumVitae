@@ -19,19 +19,11 @@ const EducationContent: React.FC<EducationContentProps> = ({ title, items }) => 
             <div className="flex flex-col gap-6">
                 {items.map((item, index) => {
                     return (
-                        <div className="flex" key={index}>
-                            <div className="mr-8 max-w-[225px] w-full text-slate-400 dark:text-slate-400">
-                                {item.date}
-                            </div>
-                            <div className="flex flex-col flex-1">
-                                <h4>{item.degree}</h4>
-                                <p className="text-slate-600 dark:text-gray-400">
-                                    {item.university}
-                                </p>
-                                <p className="text-slate-600 dark:text-gray-400">
-                                    {item.location}
-                                </p>
-                            </div>
+                        <div className="grid grid-cols-2 gap-0" key={index}>
+                            <div className="mr-8 max-w-[225px] w-full text-slate-400 dark:text-slate-400 row-span-3">{item.date}</div>
+                            <div><h4>{item.degree}</h4></div>
+                            <div className="text-slate-600 dark:text-gray-400">{item.university}</div>
+                            <div className="text-slate-600 dark:text-gray-400">{item.location}</div>
                         </div>
                     );
                 })}
