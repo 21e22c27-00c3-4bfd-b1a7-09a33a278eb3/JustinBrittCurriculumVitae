@@ -3,9 +3,9 @@ export const certificatesData = [
         title: "Certificates",
         items: [
             {
-                certificate: "",
-                issuer: "",
-                date: ""
+                certificate: "Introduction to Gender-based Analysis Plus",
+                issuer: "Women and Gender Equality Canada",
+                date: "September 29, 2022"
             },
         ],
     }

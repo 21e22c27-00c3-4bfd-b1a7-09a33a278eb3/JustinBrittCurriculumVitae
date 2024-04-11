@@ -3,14 +3,37 @@ import ThemeSwitch from "@/components/theme-switch";
 
 import { generalData } from "@/data/general";
 
+import { certificatesData } from "@/data/certificates";
+import type { CertificatesContent } from "@/data/certificates";
+
 import { educationData } from "@/data/education";
 import type { EducationContent } from "@/data/education";
 
 import { workExperienceData } from "@/data/workExperience";
 import type { WorkExperienceContent } from "@/data/workExperience";
 
+type CertificatesContentProps = CertificatesContent;
 type EducationContentProps = EducationContent;
 type WorkExperienceContentProps = WorkExperienceContent;
+
+const CertificatesContent: React.FC<CertificatesContentProps> = ({ title, items }) => {
+    return (
+        <section className="my-14 text-sm">
+            <h3 className="mb-6">{title}</h3>
+            <div className="flex flex-col gap-6">
+                {items.map((item, index) => {
+                    return (
+                        <div className="grid grid-cols-2 gap-0" key={index}>
+                            <div className="mr-8 max-w-[225px] w-full text-slate-400 dark:text-slate-400 row-span-2">{item.date}</div>
+                            <div><h4>{item.certificate}</h4></div>
+                            <div className="text-slate-600 dark:text-gray-400">{item.issuer}</div> 
+                        </div>
+                    );
+                })}
+            </div>
+        </section>
+    );
+};
 
 const EducationContent: React.FC<EducationContentProps> = ({ title, items }) => {
     return (
@@ -104,6 +127,10 @@ export default function Home() {
 
         {workExperienceData.map((workExperienceContent, index) => {
           return <WorkExperienceContent {...workExperienceContent} key={index} />;
+        })}
+
+        {certificatesData.map((certificatesContent, index) => {
+          return <CertificatesContent {...certificatesContent} key={index} />;
         })}
 
         <section className="my-14 text-sm">
