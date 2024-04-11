@@ -14,7 +14,7 @@ export const workExperienceData = [
                 employer: "Production & Operations Management Research Lab",
                 location: "Windsor, Ontario, Canada",
                 date: "May 2015 - August 2023",
-                description: "",
+                description: "Developed mathematical programming models, discrete event simulation models, solution methods (hyperheuristics and metaheuristics), and a decision support system for strategic and tactical operating room planning problems",
             },
         ],
     }
