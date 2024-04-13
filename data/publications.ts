@@ -4,6 +4,7 @@ export const publicationsData = [
         items: [
             {
                 citation: "",
+                type: "",
             },
         ],
     }
@@ -13,6 +14,7 @@ export type PublicationsContent = {
     title: string;
     items: {
         citation: string;
+        type: string;
     }[];
 };
 
