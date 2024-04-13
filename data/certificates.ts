@@ -12,6 +12,11 @@ export const certificatesData = [
                 issuer: "Panel on Research Ethics",
                 date: "February 29, 2016"
             },
+            {
+                certificate: "Protecting Human Research Participants",
+                issuer: "National Institutes of Health (NIH) Office of Extramural Research",
+                date: "February 28, 2016"
+            },
         ],
     }
 ];
