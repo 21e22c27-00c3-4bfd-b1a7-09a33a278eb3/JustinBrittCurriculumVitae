@@ -9,11 +9,15 @@ import type { CertificatesContent } from "@/data/certificates";
 import { educationData } from "@/data/education";
 import type { EducationContent } from "@/data/education";
 
+import { publicationsData } from "@/data/publications";
+import type { PublicationsContent } from "@/data/publications";
+
 import { workExperienceData } from "@/data/workExperience";
 import type { WorkExperienceContent } from "@/data/workExperience";
 
 type CertificatesContentProps = CertificatesContent;
 type EducationContentProps = EducationContent;
+type PublicationsContentProps = PublicationsContent;
 type WorkExperienceContentProps = WorkExperienceContent;
 
 const CertificatesContent: React.FC<CertificatesContentProps> = ({ title, items }) => {
@@ -53,6 +57,24 @@ const EducationContent: React.FC<EducationContentProps> = ({ title, items }) => 
             </div>
         </section>
     );
+};
+
+const PublicationsContent: React.FC<PublicationsContentProps> = ({ title, items }) => {
+  return (
+      <section className="my-14 text-sm">
+          <h3 className="mb-6">{title}</h3>
+          <div className="flex flex-col gap-6">
+              {items.map((item, index) => {
+                  return (
+                      <div className="grid grid-cols-2 gap-0" key={index}>
+                          <div className="mr-8 max-w-[225px] w-full text-slate-400 dark:text-slate-400 row-span-3">{item.type}</div>
+                          <div className="text-slate-600 dark:text-gray-400">{item.citation}</div>
+                      </div>
+                  );
+              })}
+          </div>
+      </section>
+  );
 };
 
 const WorkExperienceContent: React.FC<WorkExperienceContentProps> = ({ title, items }) => {
@@ -127,6 +149,10 @@ export default function Home() {
 
         {workExperienceData.map((workExperienceContent, index) => {
           return <WorkExperienceContent {...workExperienceContent} key={index} />;
+        })}
+
+        {publicationsData.map((publicationsContent, index) => {
+          return <PublicationsContent {...publicationsContent} key={index} />;
         })}
 
         {certificatesData.map((certificatesContent, index) => {
