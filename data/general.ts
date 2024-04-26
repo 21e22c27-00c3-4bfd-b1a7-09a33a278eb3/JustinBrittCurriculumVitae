@@ -15,5 +15,10 @@ export const generalData = {
       value: "JustinBritt",
       href: "https://github.com/JustinBritt",
     },
+    {
+      label: "Google Scholar",
+      value: "Justin Britt",
+      href: "https://scholar.google.ca/citations?user=9yCvSloAAAAJ"
+    },
   ],
 };
