@@ -21,7 +21,7 @@ import type { WorkExperienceContent } from "@/data/workExperience";
 type CertificatesContentProps = CertificatesContent;
 type EducationContentProps = EducationContent;
 type PublicationsContentProps = PublicationsContent;
-type ScholarshipsAwardsProps = ScholarshipsAwardsContent;
+type ScholarshipsAwardsContentProps = ScholarshipsAwardsContent;
 type WorkExperienceContentProps = WorkExperienceContent;
 
 const CertificatesContent: React.FC<CertificatesContentProps> = ({ title, items }) => {
@@ -73,6 +73,24 @@ const PublicationsContent: React.FC<PublicationsContentProps> = ({ title, items 
                       <div className="grid grid-cols-2 gap-0" key={index}>
                           <div className="mr-8 max-w-[225px] w-full text-slate-400 dark:text-slate-400 row-span-3">{item.type}</div>
                           <div className="text-slate-600 dark:text-gray-400">{item.citation}</div>
+                      </div>
+                  );
+              })}
+          </div>
+      </section>
+  );
+};
+
+const ScholarshipsAwardsContent: React.FC<ScholarshipsAwardsContentProps> = ({ title, items }) => {
+  return (
+      <section className="my-14 text-sm">
+          <h3 className="mb-6">{title}</h3>
+          <div className="flex flex-col gap-6">
+              {items.map((item, index) => {
+                  return (
+                      <div className="grid grid-cols-2 gap-0" key={index}>
+                          <div className="mr-8 max-w-[225px] w-full text-slate-400 dark:text-slate-400 row-span-3">{item.date}</div>
+                          <div><h4>{item.scholarshipAward}</h4></div>
                       </div>
                   );
               })}
@@ -161,6 +179,10 @@ export default function Home() {
 
         {certificatesData.map((certificatesContent, index) => {
           return <CertificatesContent {...certificatesContent} key={index} />;
+        })}
+
+        {scholarshipsAwardsData.map((scholarshipsAwardsContent, index) => {
+          return <ScholarshipsAwardsContent {...scholarshipsAwardsContent} key={index} />;
         })}
 
         <section className="my-14 text-sm">
