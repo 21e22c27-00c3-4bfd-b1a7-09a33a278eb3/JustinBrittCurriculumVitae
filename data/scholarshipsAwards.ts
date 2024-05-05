@@ -6,6 +6,10 @@ export const scholarshipsAwardsData = [
                 scholarshipAward: "General Graduate Endowment Award",
                 date: "2023"
             },
+            {
+                scholarshipAward: "Dr. Ross H. Paul Scholarship in Graduate Studies",
+                date: "2021"
+            },
         ],
     }
 ];
