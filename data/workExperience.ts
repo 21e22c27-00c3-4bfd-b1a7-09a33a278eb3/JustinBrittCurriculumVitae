@@ -3,6 +3,13 @@ export const workExperienceData = [
         title: "Work Experience",
         items: [
             {
+                title: "Postdoctorate Fellow",
+                employer: "Production & Operations Management Research Lab",
+                location: "Windsor, Ontario, Canada",
+                date: "April 2024 - May 2024",
+                description: ""
+            },
+            {
                 title: "Sessional Instructor",
                 employer: "Cape Breton University",
                 location: "Sydney, Nova Scotia, Canada",
