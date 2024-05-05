@@ -10,6 +10,10 @@ export const scholarshipsAwardsData = [
                 scholarshipAward: "Dr. Ross H. Paul Scholarship in Graduate Studies",
                 date: "2021"
             },
+            {
+                scholarshipAward: "A.R and E.G. Ferris Award",
+                date: "2016, 2022"
+            },
         ],
     }
 ];
