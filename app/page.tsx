@@ -165,20 +165,21 @@ export default function Home() {
           </div>
         </section>
         ) : null}
-        {educationData.map((educationContent, index) => {
-          return <EducationContent {...educationContent} key={index} />;
-        })}
 
         {workExperienceData.map((workExperienceContent, index) => {
           return <WorkExperienceContent {...workExperienceContent} key={index} />;
         })}
 
-        {publicationsData.map((publicationsContent, index) => {
-          return <PublicationsContent {...publicationsContent} key={index} />;
+        {educationData.map((educationContent, index) => {
+          return <EducationContent {...educationContent} key={index} />;
         })}
 
         {certificatesData.map((certificatesContent, index) => {
           return <CertificatesContent {...certificatesContent} key={index} />;
+        })}
+
+        {publicationsData.map((publicationsContent, index) => {
+          return <PublicationsContent {...publicationsContent} key={index} />;
         })}
 
         {scholarshipsAwardsData.map((scholarshipsAwardsContent, index) => {
