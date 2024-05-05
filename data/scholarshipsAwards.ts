@@ -14,6 +14,10 @@ export const scholarshipsAwardsData = [
                 scholarshipAward: "A.R and E.G. Ferris Award",
                 date: "2016, 2022"
             },
+            {
+                scholarshipAward: "University of Windsor Doctoral Entrance Scholarship (Canadian)",
+                date: "2016 - 2019"
+            },
         ],
     }
 ];
