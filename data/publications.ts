@@ -12,6 +12,11 @@ export const publicationsData = [
                 type: "Doctoral Dissertation",
                 doi: ""
             },
+            {
+                citation: "Britt, J., Li, X., Azab, A., \& Baki, M. F. (2022). Stochastic goal programming and metaheuristics for the master surgical scheduling problem. International Journal of Operational Research, 43(1-2), 5-41.",
+                type: "Journal Article",
+                doi: ""
+            },
         ],
     }
 ];
