@@ -13,9 +13,14 @@ export const publicationsData = [
                 doi: ""
             },
             {
-                citation: "Britt, J., Li, X., Azab, A., \& Baki, M. F. (2022). Stochastic goal programming and metaheuristics for the master surgical scheduling problem. International Journal of Operational Research, 43(1-2), 5-41.",
+                citation: "Britt, J., Li, X., Azab, A., & Baki, M. F. (2022). Stochastic goal programming and metaheuristics for the master surgical scheduling problem. International Journal of Operational Research, 43(1-2), 5-41.",
                 type: "Journal Article",
                 doi: "https://doi.org/10.1504/IJOR.2022.121492"
+            },
+            {
+                citation: "Britt, J., Baki, M. F., Azab, A., Chaouch, A., & Li, X. (2021). A stochastic hierarchical approach for the master surgical scheduling problem. Computers & Industrial Engineering}, 158, 107385.",
+                type: "Journal Article",
+                doi: "https://doi.org/10.1016/j.cie.2021.107385"
             },
         ],
     }
