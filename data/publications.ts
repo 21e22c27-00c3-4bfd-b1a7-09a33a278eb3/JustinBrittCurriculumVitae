@@ -22,6 +22,11 @@ export const publicationsData = [
                 type: "Journal Article",
                 doi: "https://doi.org/10.1016/j.cie.2021.107385"
             },
+            {
+                citation: "Yavari, S., Azab, A., Baki, M. F., Alcelay, M., & Britt, J. (2020). Machine scheduling for multitask machining. Journal of Optimization in Industrial Engineering}, 13(2), 1-15.",
+                type: "Journal Article",
+                doi: ""
+            },
         ],
     }
 ];
