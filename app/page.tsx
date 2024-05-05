@@ -12,12 +12,16 @@ import type { EducationContent } from "@/data/education";
 import { publicationsData } from "@/data/publications";
 import type { PublicationsContent } from "@/data/publications";
 
+import { scholarshipsAwardsData } from "@/data/scholarshipsAwards";
+import type { ScholarshipsAwardsContent } from "@/data/scholarshipsAwards";
+
 import { workExperienceData } from "@/data/workExperience";
 import type { WorkExperienceContent } from "@/data/workExperience";
 
 type CertificatesContentProps = CertificatesContent;
 type EducationContentProps = EducationContent;
 type PublicationsContentProps = PublicationsContent;
+type ScholarshipsAwardsProps = ScholarshipsAwardsContent;
 type WorkExperienceContentProps = WorkExperienceContent;
 
 const CertificatesContent: React.FC<CertificatesContentProps> = ({ title, items }) => {
