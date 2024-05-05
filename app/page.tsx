@@ -73,6 +73,7 @@ const PublicationsContent: React.FC<PublicationsContentProps> = ({ title, items 
                       <div className="grid grid-cols-2 gap-0" key={index}>
                           <div className="mr-8 max-w-[225px] w-full text-slate-400 dark:text-slate-400 row-span-3">{item.type}</div>
                           <div className="text-slate-600 dark:text-gray-400">{item.citation}</div>
+                          <div className="text-slate-600 dark:text-gray-400">{item.doi}</div>
                       </div>
                   );
               })}
