@@ -18,6 +18,10 @@ export const scholarshipsAwardsData = [
                 scholarshipAward: "University of Windsor Doctoral Entrance Scholarship (Canadian)",
                 date: "2016 - 2019"
             },
+            {
+                scholarshipAward: "University of Windsor Graduate Student Bursary",
+                date: "2015, 2021"
+            },
         ],
     }
 ];
