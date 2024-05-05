@@ -32,6 +32,11 @@ export const publicationsData = [
                 type: "Poster",
                 doi: ""
             },
+            {
+                citation: "Britt, J. (2015). Stochastic goal programming and a metaheuristic for scheduling of operating rooms. ",
+                type: "Master's Thesis",
+                doi: ""
+            },
         ],
     }
 ];
