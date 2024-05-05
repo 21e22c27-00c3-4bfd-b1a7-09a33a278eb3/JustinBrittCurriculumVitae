@@ -27,6 +27,11 @@ export const publicationsData = [
                 type: "Journal Article",
                 doi: ""
             },
+            {
+                citation: "Baki, M. F., Britt, J., Azab, A., Chaouch, B., & Li, X. (2016). Stochastic hierarchical approach for master surgical scheduling. September 23-25, 2016, IEOM Detroit Conference at Lawrence Technological University, Detroit, United States of America.",
+                type: "Poster",
+                doi: ""
+            },
         ],
     }
 ];
