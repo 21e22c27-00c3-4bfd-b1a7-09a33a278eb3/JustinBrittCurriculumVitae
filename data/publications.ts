@@ -18,7 +18,7 @@ export const publicationsData = [
                 doi: "https://doi.org/10.1504/IJOR.2022.121492"
             },
             {
-                citation: "Britt, J., Baki, M. F., Azab, A., Chaouch, A., & Li, X. (2021). A stochastic hierarchical approach for the master surgical scheduling problem. Computers & Industrial Engineering}, 158, 107385.",
+                citation: "Britt, J., Baki, M. F., Azab, A., Chaouch, A., & Li, X. (2021). A stochastic hierarchical approach for the master surgical scheduling problem. Computers & Industrial Engineering, 158, 107385.",
                 type: "Journal Article",
                 doi: "https://doi.org/10.1016/j.cie.2021.107385"
             },
